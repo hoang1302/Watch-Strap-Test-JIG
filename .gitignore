@@ -1,0 +1,25 @@
+# Altium local history, previews, logs and generated files
+History/
+__Previews/
+Project Logs*/
+Project Outputs*/
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.SchDoc~
+*.PcbDoc~
+*.PrjPcb~
+*.bak
+*.ldb
+*.lck
+*.tmp
+
+# Local working files
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*

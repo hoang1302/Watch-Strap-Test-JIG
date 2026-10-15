@@ -1,0 +1,81 @@
+{
+  "package_date": "2026-10-15",
+  "hardware_revision": "V1.0",
+  "status": "Prototype / work in progress",
+  "verification": "File integrity, project document references and BOM fields checked. Altium compile, ERC/DRC and physical tests have not been run for this package.",
+  "files": [
+    {
+      "file": "hardware/altium/JIG_TEST_FLEX_V1.0.SchDoc",
+      "source_file": "JIG_TEST_FLEX_V1.0.SchDoc",
+      "sha256": "1a8fd2e3bf213a4ff3b17abcce10f0002f9deeeed56ac5eeaadadb28003900e6",
+      "content": "unchanged"
+    },
+    {
+      "file": "hardware/altium/JIG_TEST_FLEX_V1.0.PcbDoc",
+      "source_file": "JIG_TEST_FLEX_V1.0.PcbDoc",
+      "sha256": "7196df9984e7390b746f2a0d05d75c837063797669f47e1472eeb849305fdfd3",
+      "content": "unchanged"
+    },
+    {
+      "file": "hardware/altium/JIG_TEST_FLEX_V1.0.BomDoc",
+      "source_file": "JIG_TEST_FLEX_V1.0.BomDoc",
+      "sha256": "0bfa5f922407a1372f5be8a9ea41767af895cfb02bac2e4ae5ac0954bdda2fe4",
+      "content": "unchanged"
+    },
+    {
+      "file": "hardware/altium/jig.SchLib",
+      "source_file": "JIG_TEST_FLEX_V1.0.SchLib",
+      "sha256": "03f82e3f33c581ccc16e7935fd4dc907bf1d501372e009856af7d4d89d0179fa",
+      "content": "unchanged"
+    },
+    {
+      "file": "hardware/altium/jig.PcbLib",
+      "source_file": "JIG_TEST_FLEX_V1.0.PcbLib",
+      "sha256": "764b3075164d1313d39b3963d92e9ff2b0e5b824909a6d5fc38cdfc51c7b94d3",
+      "content": "unchanged"
+    },
+    {
+      "file": "hardware/altium/Constraints.xml",
+      "source_file": "Constraints.xml",
+      "sha256": "5cbd152bb8f02794c694b60ad8f8d8d353105d0cf6f80ba0d834f4e36edc60cd",
+      "content": "unchanged"
+    },
+    {
+      "file": "hardware/altium/JIG_TEST_FLEX_V1.0.PrjPcb",
+      "sha256": "c1cf8f01d10b384dad891ad431344813e0e9b85c63765b38df7661713b30dc25",
+      "content": "packaging-only reference cleanup",
+      "source_sha256": "8e1349424581046c29bf6009b99719e89ffc5abe36b81bca9b8496bd9a0ee10f"
+    }
+  ],
+  "bom": {
+    "file": "hardware/bom/JIG_TEST_FLEX_V1.0_BOM_2026-10-09.xlsx",
+    "sha256": "56f18ad1c677512c551195ec004190954e7d5180f1db21ef3a40b01f4d60f826",
+    "groups": 34,
+    "components": 113,
+    "excluded_designators": [
+      "101",
+      "102",
+      "C102",
+      "J102",
+      "R128",
+      "R129",
+      "TP101",
+      "TP102",
+      "TP103",
+      "TP104",
+      "TP105",
+      "TP106",
+      "TP107",
+      "TP108",
+      "TP109",
+      "TP110",
+      "TP111",
+      "TP112",
+      "TP113",
+      "TP114",
+      "VIN101",
+      "V_BUS101"
+    ],
+    "metadata_note": "H101 manufacturer, MPN and JPN carried from prior selected BOM; current schematic lacks these fields."
+  }
+}
